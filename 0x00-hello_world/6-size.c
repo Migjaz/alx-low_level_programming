@@ -12,11 +12,11 @@ long c_long;
 long long c_long_long;
 float c_float;
 
-printf("Size of char: %d byte(s)\n", sizeof(char));
-printf("Size of an int: %d byte(s)\n", sizeof(int));
-printf("Size of a long int: %d byte(s)\n", sizeof(long));
-printf("Size of a long_long int: %d byte(s)\n", sizeof(long_long));
-pritnf("Size of float: %d byte(s)\n", sizeof(float));
+printf("Size of char: %d byte(s)\n", unsigned long sizeof(char));
+printf("Size of an int: %d byte(s)\n", unsigned long sizeof(int));
+printf("Size of a long int: %d byte(s)\n", unsigned long sizeof(long));
+printf("Size of a long_long int: %d byte(s)\n", unsigned long sizeof(long_long));
+pritnf("Size of float: %d byte(s)\n", unsigned long sizeof(float));
 
 return (0);
 }
