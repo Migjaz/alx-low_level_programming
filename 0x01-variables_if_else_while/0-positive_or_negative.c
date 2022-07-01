@@ -6,10 +6,10 @@
 int main(void)
 {
 	int n;
-	scanf(%d);
+	scanf(%lu);
 	if (n>0)
-		ptintf("is positive.\n");
-	else if (n==0);
+		printf("is positive.\n");
+	else (n==0);
 	printf("is zero.\n");
 	else (n<0);
 	printf("is negative.\n");
