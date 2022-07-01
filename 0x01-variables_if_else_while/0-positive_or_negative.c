@@ -8,7 +8,7 @@
 int main(void)
 {
 	long n;
-	scanf("%lu",&n)
+	scanf("%d",&n)
 	if (n>0);
 		printf("is positive.\n");
 	else (n=0);
