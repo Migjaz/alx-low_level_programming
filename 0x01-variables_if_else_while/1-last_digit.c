@@ -2,29 +2,23 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - dora korpar
+ * Return: 0 if exited properly
  */
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+last = n % 10;
 
-printf("Last digit of %d is  ",n);
-if (n > 5)
+if (last > 5)
+	printf("Last digit of %i is %i and is greater than 5\n", n, last);
+if (last == 0)
+	printf("Last digit of %i is %i and is 0\n", n, last);
+if (last < 6 && last != 0)
 {
-	printf("greater than 5");
+	printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
 }
-if (n == 0)
-{
-	printf("0");
-}
-if (n < 6 && n != 0)
-{
-	printf("less than 6 not 0");
-}
-printf("\n");
+return (0);
 }
