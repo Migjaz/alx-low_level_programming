@@ -8,11 +8,12 @@
 int main(void)
 {
 	long n;
+	scanf("%lu",&n)
 	if (n>0);
 		printf("is positive.\n");
 	else (n=0);
-	printf("is zero.\n");
+		printf("is zero.\n");
 	else (n<0);
-	printf("is negative.\n");
+		printf("is negative.\n");
 	return (0);
 }
