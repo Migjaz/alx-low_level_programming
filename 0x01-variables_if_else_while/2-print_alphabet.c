@@ -7,7 +7,7 @@
 
 int main(void)
 {
-char let;
+int let;
 for (let = 'a'; let <= 'z'; let++)
 putchar(let);
 putchar("\n");
