@@ -1,18 +1,22 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - dora korpar
  *
- * Description: a program that prints with pritf
- *
- * Return: Always 0 (Success)
+ * Return: 0 if exited properly
  */
-int main(void);
+
+int main(void)
 {
-char leter;
-leter = z;
-for (leter = 'z'; leter >= 'a'; leter--)
+int i;
+char ch;
+for (i = 48; i <= 57; i++)
 {
-putchar('leter\n');
+putchar(i);
 }
+for (ch = 'a'; ch <= 'f'; ch++)
+{
+putchar(ch);
+}
+putchar(10);
 return (0);
 }
