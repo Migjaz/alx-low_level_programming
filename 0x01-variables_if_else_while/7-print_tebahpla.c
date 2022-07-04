@@ -9,8 +9,10 @@
 int main(void);
 {
 char leter;
+leter = z;
 for (leter = 'z'; leter >= 'a'; leter--)
-putchar(leter);
-putchar("\n");
+{
+putchar('leter\n');
+}
 return (0);
 }
