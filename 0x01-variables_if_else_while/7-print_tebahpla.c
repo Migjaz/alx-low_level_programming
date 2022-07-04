@@ -8,11 +8,9 @@
  */
 int main(void);
 {
-char Z;
-for (Z = 'z'; Z >= 'a'; Z--)
-{
-putchar(Z);
-}
-putchar('\n');
+char leter;
+for (leter = 'z'; leter >= 'a'; leter--)
+putchar(leter);
+putchar("\n");
 return (0);
 }
