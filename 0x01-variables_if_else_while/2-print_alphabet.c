@@ -1,17 +1,21 @@
-#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - Entry point
- *
- * Return: Alwayas 0 (Success)
+ * main - Entry - point
+ * 
+ * Return: Always 0 (Success)
  */
 
 int main(void)
+
 {
-int let;
-for (let = 'a'; let <= 'z'; let++)
-{
-putchar(let);
-}
-putchar("\n");
-return (0);
+	char ltr;
+	ltr = a;
+	while (ltr = 'a'; ltr <= 'z'; ltr++)
+	{
+		putchar(ltr);
+	}
+	putchar("\n");
+
+	return (0);
 }
