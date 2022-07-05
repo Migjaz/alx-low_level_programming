@@ -8,10 +8,12 @@
 
 int main(void)
 {
-	int a = 100;
-	int b = 100;
+	int a;
+	int b;
 	int add;
 	add = a + b;
+	printf("Enter two numbers:\n");
+	scanf("%d, %d,\n", a, b);
 	printf("The sum of the nubers is: %d, \n", add);
 
 	return (0);
